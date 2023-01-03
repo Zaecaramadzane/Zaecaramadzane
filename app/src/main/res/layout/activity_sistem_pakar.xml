@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    tools:context=".SistemPakar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/pakarfoto" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Gatel-gatel(Sering menggaruk)"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bulunya terlihat botak dan kusut"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Nafsu makan menurun"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Kulit mengeluarkan cairan eksudat bening"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Kulit menebal, pecah-pecah"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bulu kucing rontok"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Benjolan merah menonjol sampai berisi nanah"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Berkerak pada kulit"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bintik-bintik merah,papula, dan yesikula"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bulu yang menipis di bagian ujung ekor"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Kerap menggelengkan kepala"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bau menyengat dari telinga kucing"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Muncul cairan berwarna gelap dari telinga kucing"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Terdapat telur berwarna putih hingga cokelat menempel di bulu kucing"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Demam"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Lemas"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Diare"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Muntah"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Bersin"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Kotoran mata menunpuk"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Sesak nafas"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Luka pada gusi"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Luka pada langit mulut lidah merah sekitaran gigi"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Air liur keluar sangat banyak"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Mata bengkak"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Mata merah"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk"
+            android:textColor="@color/white"/>
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROSES DETEKSI PENYAKIT"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA PENYAKIT"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_pets_24" />
+
+
+
+    </LinearLayout>
+</ScrollView>

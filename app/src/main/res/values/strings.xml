@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Meow Care</string>
+    <string name="title_activity_catscott">catscott</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Anggora">Visit Video <a href="https://www.youtube.com/watch?v=KI5MjmRXoI4">Youtube</a></string>
+    <string name="Persia">visit youtube<a href="https://www.youtube.com/watch?v=-v7QMhvh948">Youtube</a></string>
+    <string name="Scottish">visit youtube<a href="https://www.youtube.com/watch?v=lnlg55QR3hw">Youtube</a></string>
+    <string name="Calico">visit youtube<a href="https://www.youtube.com/watch?v=8meeNFOPRyU">Youtube</a></string>
+    <string name="Sphynx">visit youtube<a href="https://www.youtube.com/watch?v=ci6XVFgjOzY">Youtube</a></string>
+</resources>
